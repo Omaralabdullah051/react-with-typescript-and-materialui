@@ -9,7 +9,7 @@ interface ServiceProps {
 
 const Service = ({service}: ServiceProps) => {
     return (
-        <div key={service._id}>
+        <div>
            <img src={service.img} alt="" />
             <h5>{service.name}</h5>
             <p>{service.discription}</p>
